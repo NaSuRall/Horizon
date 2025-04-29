@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Marque;
 use App\Models\Product;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -28,6 +29,53 @@ class DatabaseSeeder extends Seeder
             'quantite' => 10,
             'image' => 'test.jpg',
             'reference' => 1,
+        ]);
+        Product::create([
+            'name' => 'Test product',
+            'description' => 'Test product',
+            'prix' => 100,
+            'quantite' => 10,
+            'image' => 'test.jpg',
+            'reference' => 1,
+        ]);
+        Product::create([
+            'name' => 'Test product',
+            'description' => 'Test product',
+            'prix' => 100,
+            'quantite' => 10,
+            'image' => 'test.jpg',
+            'reference' => 1,
+        ]);  Product::create([
+        'name' => 'Test product',
+        'description' => 'Test product',
+        'prix' => 100,
+        'quantite' => 10,
+        'image' => 'test.jpg',
+        'reference' => 1,
+    ]);
+        Product::create([
+            'name' => 'Test product',
+            'description' => 'Test product',
+            'prix' => 100,
+            'quantite' => 10,
+            'image' => 'test.jpg',
+            'reference' => 1,
+        ]);
+
+        Marque::create([
+           'name' => 'Kawazaki',
+        ]);
+        Marque::create([
+            'name' => 'KTM',
+        ]);
+        Marque::create([
+            'name' => 'Maxxess',
+        ]);
+        Marque::create([
+            'name' => 'Honda',
+        ]);
+        Marque::create([
+            'name' => 'Suzuki',
         ]);
     }
 }
