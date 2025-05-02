@@ -15,8 +15,28 @@
     border-bottom: 1px solid #25272d;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
+
+}
+.card-header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40px;
+    background-color: white;
+    transition: 0.5s all ease-in-out;
+    & i{
+        color: black;
+    }
+    &:hover{
+        background-color: red;
+    };
 }
 
 /* Tableau  */
